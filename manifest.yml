@@ -1,0 +1,11 @@
+---
+applications:
+- name: retailChainManagement
+  host: retailChainManagement
+  memory: 512M
+  random-route: false
+  path: target/RetailChain-0.0.1.jar
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    
+    
